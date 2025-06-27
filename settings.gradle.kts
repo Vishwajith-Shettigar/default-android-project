@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "your-app"
+rootProject.name = "default-android-project"
 include(":app")
  
