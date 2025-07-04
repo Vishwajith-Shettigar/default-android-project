@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">your-app</string>
+    <string name="default_android_project">your app name</string>
 </resources>
