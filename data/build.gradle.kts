@@ -7,9 +7,10 @@ plugins {
 }
 
 android {
-  compileSdk = 34  // Or your target SDK
+  namespace = "com.example.data"
+  compileSdk = 34
   defaultConfig {
-    minSdk = 21  // Adjust as needed
+    minSdk = 21
   }
   compileOptions {
     sourceCompatibility = JavaVersion.VERSION_11
@@ -33,6 +34,4 @@ dependencies {
 // (Optional) Use KSP instead of kapt for faster builds
 // apply plugin: 'com.google.devtools.ksp'
 // ksp "androidx.room:room-compiler:2.6.1"
-
-
 }

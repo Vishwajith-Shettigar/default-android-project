@@ -111,9 +111,9 @@ dependencies {
 
   implementation("com.google.accompanist:accompanist-systemuicontroller:0.34.0")
 
-  androidTestImplementation ("com.google.dagger:hilt-android-testing:2.56.2")
+  androidTestImplementation (libs.hilt.android.testing)
 
-  kaptAndroidTest ("com.google.dagger:hilt-android-compiler:2.56.2")
+  kaptAndroidTest (libs.hilt.android.compiler)
 
 
 }
